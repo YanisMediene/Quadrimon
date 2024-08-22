@@ -1,54 +1,57 @@
-# C++ objects and libs
-*.slo
-*.lo
+
+### .gitignore
+
+```plaintext
+# Compiled object files
 *.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
+*.obj
+*.lo
+*.slo
+
+# Compiled dynamic libraries
 *.dll
 *.dylib
+*.so
 
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
-*_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
+# Compiled static libraries
+*.lib
+*.a
+*.la
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Qt specific
 *.pro.user
+*.qmake.stash
 *.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
-*.qm
-*.prl
 
-# Qt unit tests
-target_wrapper.*
+# Mac OS specific
+.DS_Store
 
-# QtCreator
-*.autosave
+# Visual Studio specific
+.vscode/
+*.vcxproj*
+*.sln
+*.vcproj*
+Debug/
+Release/
+ipch/
+*.pdb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
 
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
+# OpenGL and OpenCV temporary files
+*.log
+*.cache
 
-# QtCreator CMake
-CMakeLists.txt.user*
-
-# QtCreator 4.8< compilation database
-compile_commands.json
-
-# QtCreator local machine specific files for imported projects
-*creator.user*
-
-*_qmlcache.qrc
+# General
+*.swp
+*.bak
+*.tmp
+*.temp
+*~
