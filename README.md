@@ -152,8 +152,7 @@ Quadrimon/
 
 ## 👥 Auteurs
 
-- **Yanis MEDIENE** - Développement principal, interface, OpenGL
-- **Souley MOHAMAN BELLO** - Développement, logique de jeu, reconnaissance d'images
+- **Yanis MEDIENE** - Développement principal, interface, OpenGL, logique de jeu, reconnaissance d'images
 
 ## ⚠️ Limitations connues
 
